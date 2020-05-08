@@ -1,0 +1,360 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    display: block;
+}
+
+.btn {
+    border: 3px solid #fec63e;  
+    padding: 10px 30px;  
+    color: #fec63e;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: #fff;  
+    transition: ease-in-out 150ms;
+}
+
+.subtitulo {
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;    
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 10px auto;
+}
+
+/* Header */
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fec63e;
+    padding: 12px 0;
+    z-index: 10;
+    box-shadow: #000  0px 2px 10px;
+}
+
+.header_menu {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header_menu ul li a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: #fff;
+    transition: ease-in-out 300ms;
+} 
+
+
+/* Introdução */
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 86px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.introducao h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 86px;
+    height: 160px;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.introducao-interna h1 {
+    color: white;
+    font-size:36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    background: white;
+    width: 60px;
+    height: 3px;
+    margin: 6px auto 10px auto;
+}
+
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p:before, 
+.quote-externo p::after {
+    content: "";
+    display: block;
+    background: white;
+    width: 60px;
+    height: 3px;
+    margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+/* Prudtos */
+
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos_lista li {
+    background: #fec63e;
+    text-align: center;
+
+}
+
+.produtos_lista li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.produtos_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 2px auto;
+}
+
+.produtos_lista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.call {
+    text-align: center;
+    padding: 40px;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+.call .btn-preto:hover {
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);  
+    transition: ease-in-out 200ms;
+}
+
+/* Portfolio */
+
+.portfolio {
+    width: 100%;
+    background: #000;
+    
+}
+
+.portfolio .subtitulo {
+    color: #fec63e;
+}
+
+.portfolio .subtitulo:after {
+    background: #fec63e;
+} 
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call p {
+    color: #fff;
+}
+
+/* QUALIDADE */
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade:after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.png") no-repeat center;
+    z-index: -1;
+    position: absolute;
+    top: 176px;
+    right: 162px;
+}
+
+.qualidade_lista {
+    padding-top: 20px;
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.qualidade_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 6px auto;
+}
+
+/* QUEBRA */
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.quebra .quote-externo {
+    max-width: 400px;
+    padding-top: 40px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    initial-letter-align: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+    padding-right: 40px;
+}
+
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+    display: inline-block; 
+    margin-right: 8px;  
+}
+
+.footer_redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.footer_redes ul li a:hover {
+    border-color: #fff;
+    transition: ease-out 150ms;
+}
+
+.copy {
+    background: #fec63e;
+    padding: 10px;
+}
