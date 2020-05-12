@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js")</script>
   </head>
   <body>
       <header class="header">
@@ -26,12 +27,12 @@
         </div>
       </header>
       <section class="introducao-interna interna_produtos">
-        <div class="container">
+        <div class="container fadeInDown" data-anime="400">
           <h1>Produtos</h1>
           <p>Conheça mais nossos produtos</p>         
         </div>
       </section>    
-      <section class="container produto_item">
+      <section class="container produto_item fadeInDown" data-anime="800">
         <div class="grid-11">
               <img src="img/produtos/bikcraft-passeio-1.jpg" alt="">
               <h2>Passeio</h2>
@@ -51,7 +52,7 @@
             <img src="img/produtos/" alt="">
         </div>
       </section>
-      <section class="container produto_item">
+      <section class="container produto_item fadeInDown" data-anime="1200">
         <div class="grid-11">
               <img src="img/produtos/bikcraft-esporte-1.jpg" alt="">
               <h2>Esporte</h2>
@@ -71,7 +72,7 @@
             <img src="img/produtos/" alt="">
         </div>
       </section>
-      <section class="container produto_item">
+      <section class="container produto_item fadeInDown" data-anime="1600">
         <div class="grid-11">
               <img src="img/produtos/bikcraft-retro-1.jpg" alt="">
               <h2>Retrô</h2>
@@ -174,5 +175,7 @@
           </div>
         </div>
       </footer>
+      <script src="js/simple-anime.js"></script>
+      <script src="js/script.js"></script>
   </body>
 </html>

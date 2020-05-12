@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js")</script>
   </head>
   <body>
       <header class="header">
@@ -19,21 +20,21 @@
             <ul>
               <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
               <li><a href="produtos.html" >Produtos</a></li>
-              <li><a href="portifolio.html">Portfólio</a></li>
+              <li><a href="portfolio.html">Portfólio</a></li>
               <li><a href="contato.html">Contato</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
-      <section class="introducao-interna interna_sobre">
-        <div class="container">
+      <section class="introducao-interna interna_sobre fadeInDown" >
+        <div class="container fadeInDown" data-anime="400">
           <h1>Sobre</h1>
           <p>Conheça mais sobre Bikcraf</p>         
         </div>
       </section>
 
-      <section class="missao_sobre container">
+      <section class="missao_sobre container fadeInDown"  data-anime="800" >
         <div class="grid-10">
           <h2 class="subtitulo-interno">História, Missão e Visão</h2>
           <p>No mundo atual, a contínua expansão de nossa atividade cumpre
@@ -59,7 +60,7 @@
       </section>
 
 
-      <section class="qualidade container">
+      <section class="qualidade container fadeInDown"  data-anime="1600" >
         <h2 class="subtitulo">Qualidade</h2>
         <img src="img/bikcraft-qualidade.png" alt="bikcraft">
         <ul class="qualidade_lista">
@@ -125,5 +126,7 @@
           </div>
         </div>
       </footer>
+      <script src="js/simple-anime.js"></script>
+      <script src="js/script.js"></script>
   </body>
 </html>
